@@ -31,13 +31,13 @@ and Y output fields.
 - Convert the input degrees to radians (&theta).
 - Let ***S*** be the linear speed of the ball in pix/sec, which is the input from
 the user. Let ***M*** be the rate of the motion clock in tic/sec, which is set
-by the programmar.
+by the programmer.
 - ```Speed of the ball = C = S/M```
-- Compute &Delta x and &Delta y using the right triangle trigonometry:
-    &Delta x = C * cos(&theta)
-    &Delta y = C * sin(&theta)
-- Each time the motion clock tics, the amount of &Delta x is added to the x-
-coordinate of the ball, and &Delta y is added to the y-coordinate of the ball.
+- Compute \delta x and \delta y using the right triangle trigonometry:
+    \delta x = C * cos(\theta)
+    \delta y = C * sin(\theta)
+- Each time the motion clock tics, the amount of \delta x is added to the x-
+coordinate of the ball, and \delta y is added to the y-coordinate of the ball.
 
 ## Prerequisites
 ---
